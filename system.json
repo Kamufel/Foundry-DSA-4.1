@@ -11,5 +11,4 @@
   "primaryTokenAttribute": "resources.health",
   "secondaryTokenAttribute": "resources.power",
  "manifest": "https://github.com/Kamufel/Foundry-DSA-4.1/blob/main/system.json"
-
 }
