@@ -1,19 +1,15 @@
 {
-  "id": "foundry-dsa-4.1",
-  "title": "4.1 for dummies",
-  "description": "Ein hoffentlich besseres DSA 4.1 System als der Schrott den es momentan auf Foundry gibt",
-  "version": "1.0.0",
-  "compatibility": {
-    "minimum": "9",
-    "verified": "9",
-    "maximum": "10"
-  },
-  "author": "Kamufel",
-
-
-  "gridDistance": 1,
-  "gridUnits": "Schritt",
-  "primaryTokenAttribute": "resources.health",
-  "secondaryTokenAttribute": "resources.power",
-  "manifest": "https://raw.githubusercontent.com/Kamufel/Foundry-DSA-4.1/main/system.json"
+    "name": "foundry-dsa-4.1",
+    "title": "Das Schwarze Auge 4.1 ",
+    "description": "Die wunderbare Welt von DSA",
+    "version": "1.0.1",
+    "templateVersion": 102,
+    "author": "Kamufel",
+    "socket": true,
+    "gridDistance": 1,
+    "gridUnits": "Schritt",
+    "minimumCoreVersion": "9.245",
+    "compatibleCoreVersion": "9",
+    "url": "https://github.com/Kamufel/Foundry-DSA-4.1",
+    "manifest": "https://raw.githubusercontent.com/Kamufel/Foundry-DSA-4.1/main/system.json"
 }
