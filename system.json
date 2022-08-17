@@ -10,5 +10,7 @@
   "gridUnits": "Schritt",
   "primaryTokenAttribute": "resources.health",
   "secondaryTokenAttribute": "resources.power",
+  "minimumCoreVersion": "9.245",
+  "compatibleCoreVersion": "9",
   "manifest": "https://raw.githubusercontent.com/Kamufel/Foundry-DSA-4.1/main/system.json"
 }
