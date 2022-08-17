@@ -1,6 +1,6 @@
 {
 "Actor": {
-  "types": ["Held"],
+  "types": ["Held", "Gegner"],
   "templates": {
     "background": {
       "biography": "",
