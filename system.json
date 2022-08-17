@@ -1,5 +1,5 @@
 {
-  "id": "DSA4.1",
+  "id": "dsadsa",
   "title": "4.1 for dummies",
   "description": "Ein hoffentlich besseres DSA 4.1 System als der Schrott den es momentan auf Foundry gibt",
   "version": "1.0.0",
@@ -10,10 +10,7 @@
   "gridUnits": "Schritt",
   "primaryTokenAttribute": "resources.health",
   "secondaryTokenAttribute": "resources.power",
-"compatibility": {
-	"minimum": 9,
-	"verified": "10"
-	"maximum": "10"
-	}
+  "minimumCoreVersion": "9.245",
+  "compatibleCoreVersion": "9",
   "manifest": "https://raw.githubusercontent.com/Kamufel/Foundry-DSA-4.1/main/system.json"
 }
