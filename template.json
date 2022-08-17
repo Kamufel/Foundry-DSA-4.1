@@ -1,6 +1,6 @@
 {
 "Actor": {
-  "types": ["Held"],
+  "types": ["hero", "pawn", "villain"],
   "templates": {
     "background": {
       "biography": "",
