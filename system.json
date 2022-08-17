@@ -9,6 +9,6 @@
   "gridDistance": 1,
   "gridUnits": "Schritt",
   "primaryTokenAttribute": "resources.health",
-  "secondaryTokenAttribute": "resources.power",
+  "secondaryTokenAttribute": "resources.power"
 
 }
