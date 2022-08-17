@@ -9,6 +9,7 @@
   "gridDistance": 1,
   "gridUnits": "Schritt",
   "primaryTokenAttribute": "resources.health",
-  "secondaryTokenAttribute": "resources.power"
+  "secondaryTokenAttribute": "resources.power",
+ "manifest": "https://github.com/Kamufel/Foundry-DSA-4.1/blob/main/system.json"
 
 }
