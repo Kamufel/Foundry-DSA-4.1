@@ -1,57 +1,122 @@
 {
-"Actor": {
-  "types": ["Held", "Gegner"],
-  "templates": {
-    "background": {
-      "biography": "",
-      "hairColor": "blue"
-    },
-    "resources": {
-      "health": {
-        "min": 0,
-        "value": 10,
-        "max": 10
+  "Actor": {
+    "types": ["character"],
+    "templates": {
+      "common": {
+        "base": {
+          "basicAttributes": {
+            "mut": {
+              "value": 0
+            },
+            "klugheit": {
+              "value": 0
+            },
+            "intuition": {
+              "value": 0
+            },
+            "charisma": {
+              "value": 0
+            },
+            "fingerfertigkeit": {
+              "value": 0
+            },
+            "gewandtheit": {
+              "value": 0
+            },
+            "konstitution": {
+              "value": 0
+            },
+            "körperkraft": {
+              "value": 0
+            }
+          },
+          "resources": {
+            "lebensenergie": {
+              "value": 0,
+              "min": 0,
+              "max": 0
+            },
+            "ausdauer": {
+              "value": 0,
+              "min": 0,
+              "max": 0
+            },
+            "karmaenergie": {
+              "value": 0,
+              "min": 0,
+              "max": 0
+            },
+            "astralenergie": {
+              "value": 0,
+              "min": 0,
+              "max": 0
+            }
+          },
+          "combatAttributes": {
+            "active": {
+              "basisinitiative": {
+                "value": 0
+              },
+              "angriffsBasis": {
+                "value": 0
+              },
+              "paradeBasis": {
+                "value": 0
+              },
+              "fernkampfBasis": {
+                "value": 0
+              },
+              "ausweichen": {
+                "value": 0
+              }
+            },
+            "passive": {
+              "magieresistenz": {
+                "value": 0
+              },
+              "rüstungswert": {
+                "value": 0
+              }
+            }
+          },
+          "geschwindigkeit": {
+            "speed": {
+              "value": 0,
+              "unit": "Schritt"
+            }
+          },
+          "combatState": {
+            "isArmed": true,
+            "primaryHand": null,
+            "secondaryHand": null,
+            "unarmedTalent": null
+          }
+        }
       },
-      "power": {
-        "min": 0,
-        "value": 1,
-        "max": 3
+      "generatedChar": {
+        "base": {
+          "race": null,
+          "culture": null,
+          "profession": null,
+          "social": {
+            "social_status": {
+              "value": 0
+            },
+            "titles": [],
+            "nobility": null
+          },
+          "appearance": {
+            "height": "",
+            "weight": "",
+            "birthday": "",
+            "eye_colour": "",
+            "hair_colour": "",
+            "description": ""
+          }
+        }
       }
+    },
+    "character": {
+      "templates": ["common", "generatedChar"]
     }
   },
-  "Held": {
-    "templates": ["background", "resources"],
-    "goodness": {
-      "value": 5,
-      "max": 10
-    }
-  },
-  "pawn": {
-    "templates": ["resources"]
-  },
-  "villain": {
-    "templates": ["background", "resources"],
-    "wickedness": {
-      "value": 5,
-      "max": 100
-    }
-  }
-},
-"Item": {
-  "types": ["weapon", "spell"],
-  "templates": {
-    "rarity": {
-      "rarity": "Common",
-      "price": 20
-    }
-  },
-  "weapon": {
-    "templates": ["rarity"],
-    "damage": 5
-  },
-  "spell": {
-    "templates": ["rarity"],
-    "cost": 2
-  }
-}
-}
