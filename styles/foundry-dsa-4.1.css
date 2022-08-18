@@ -1,0 +1,92 @@
+.flexrow .roll-row {
+  flex-grow: 1;
+}
+
+.roll-info {
+  font-size: x-small;
+}
+
+.combat-attribute-label {
+  margin-top: 1em;
+  text-align: center;
+  font-size: large;
+}
+
+.combat-attribute-value {
+  text-align: center;
+  font-size: x-large;
+}
+
+.combat-attribute-modifier {
+  text-align: center;
+  font-size: large;
+}
+
+.rangedAttack_config {
+  text-align: center;
+}
+
+.traits-label {
+  font-size: x-large;
+}
+
+.special-abilities-label {
+  font-size: x-large;
+}
+
+.traits-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto-fill, 1em);
+  grid-row-gap: 0.5em;
+  grid-column-gap: 1em;
+}
+
+.traits-list > div {
+}
+
+.special-abilities-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto-fill, 1em);
+  grid-row-gap: 0.5em;
+  grid-column-gap: 1em;
+  margin-bottom: 2em;
+}
+
+.special-abilities-list > div {
+}
+
+.effects {
+  margin-top: 2em;
+}
+
+.effects-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto-fill, 1em);
+  grid-row-gap: 1.5em;
+  grid-column-gap: 1em;
+  margin-bottom: 2em;
+}
+
+.effects-list > div {
+  height: 32px;
+}
+
+.effects-list > div img {
+  height: inherit;
+}
+
+.effects-list > div * {
+  vertical-align: middle;
+}
+
+.effects-label {
+  font-size: x-large;
+}
+
+.wrapper.svelte-8or9cm{display:grid;grid-template-columns:minmax(auto, auto) 1fr 1fr;grid-gap:10px;grid-gap:10px;gap:10px;grid-auto-rows:40px}.wrapperMod.svelte-8or9cm{display:grid;grid-template-columns:repeat(auto-fit, minmax(40px, 1fr));grid-gap:10px;grid-gap:10px;gap:10px;grid-auto-rows:40px}
