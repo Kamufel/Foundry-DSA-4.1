@@ -1,0 +1,66 @@
+<form class="{{cssClass}}" autocomplete="off">
+  {{!-- Sheet Header --}}
+  <header class="sheet-header dsa-sheet-header">
+    <div class="header-fields">
+      <div class="character-image">
+        <img
+          class="profile-img"
+          src="{{actor.img}}"
+          data-edit="img"
+          title="{{actor.name}}"
+        />
+      </div>
+      <div class="character-name">
+        <input
+          name="name"
+          type="text"
+          value="{{actor.name}}"
+          placeholder="{{localize 'DSA.Name'}}"
+        />
+      </div>
+    </div>
+  </header>
+
+  {{!-- Sheet Tab Navigation --}}
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item" data-tab="character">Charakter</a>
+    <a class="item" data-tab="talents">Talente</a>
+    <a class="item" data-tab="combat">Kampf</a>
+    <a class="item" data-tab="magic">Magie</a>
+    <a class="item" data-tab="karma">Karmal</a>
+    <a class="item" data-tab="inventory">Inventar</a>
+  </nav>
+
+  {{!-- Sheet Body --}}
+  <section class="sheet-body">
+    {{!-- Character Tab --}}
+    <div class="tab character" data-group="primary" data-tab="character">
+      {{> "systems/dsa-4.1/templates/partials/character-tab.html"}}
+    </div>
+
+    {{!-- Talents Tab --}}
+    <div class="tab talents" data-group="primary" data-tab="talents">
+      {{> "systems/dsa-4.1/templates/partials/talents-tab.html"}}
+    </div>
+
+    {{!-- Combat Tab --}}
+    <div class="tab combat" data-group="primary" data-tab="combat">
+      {{> "systems/dsa-4.1/templates/partials/combat-tab.html"}}
+    </div>
+
+    {{!-- Magic Tab --}}
+    <div class="tab magic" data-group="primary" data-tab="magic">
+      {{> "systems/dsa-4.1/templates/partials/magic-tab.html"}}
+    </div>
+
+    {{!-- Karma Tab --}}
+    <div class="tab karma" data-group="primary" data-tab="karma">
+      {{> "systems/dsa-4.1/templates/partials/karma-tab.html"}}
+    </div>
+
+    {{!-- Inventory Tab --}}
+    <div class="tab inventory" data-group="primary" data-tab="inventory">
+      {{> "systems/dsa-4.1/templates/partials/inventory-tab.html"}}
+    </div>
+  </section>
+</form>
