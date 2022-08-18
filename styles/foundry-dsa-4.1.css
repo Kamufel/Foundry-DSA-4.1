@@ -88,5 +88,3 @@
 .effects-label {
   font-size: x-large;
 }
-
-.wrapper.svelte-8or9cm{display:grid;grid-template-columns:minmax(auto, auto) 1fr 1fr;grid-gap:10px;grid-gap:10px;gap:10px;grid-auto-rows:40px}.wrapperMod.svelte-8or9cm{display:grid;grid-template-columns:repeat(auto-fit, minmax(40px, 1fr));grid-gap:10px;grid-gap:10px;gap:10px;grid-auto-rows:40px}
