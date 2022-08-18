@@ -119,4 +119,5 @@
     "character": {
       "templates": ["common", "generatedChar"]
     }
-  },
+  }
+}
