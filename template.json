@@ -122,23 +122,23 @@
   },
   "Item": {
     "types": [
-      "talent",
-      "sprache",
-      "schrift",
-      "kampftalent",
-      "vorteil",
-      "nachteil",
-      "gabe",
-      "sonderfertigkeit",
-      "zauber",
-      "zaubervariante",
-      "liturgie",
-      "liturgievariante",
-      "nahkampfwaffe",
-      "fernkampfwaffe",
-      "rüstung",
-      "schild",
-      "generic"
+      "Talent",
+      "Sprache",
+      "Schrift",
+      "Kampftalent",
+      "Vorteil",
+      "Nachteil",
+      "Gabe",
+      "Sonderfertigkeit",
+      "Zauber",
+      "Zaubervariante",
+      "Liturgie",
+      "Liturgievariante",
+      "Nahkampfwaffe",
+      "Fernkampfwaffe",
+      "Rüstung",
+      "Schild",
+      "Gegenstand"
     ],
     "templates": {
       "baseItem": {
@@ -195,7 +195,7 @@
         "variants": []
       }
     },
-    "talent": {
+    "Talent": {
       "templates": [
         "baseItem",
         "baseTalent",
@@ -203,7 +203,7 @@
         "uniquelyIdentifiable"
       ]
     },
-    "sprache": {
+    "Sprache": {
       "templates": [
         "baseItem",
         "baseTalent",
@@ -212,7 +212,7 @@
       ],
       "complexity": 0
     },
-    "schrift": {
+    "Schrift": {
       "templates": [
         "baseItem",
         "baseTalent",
@@ -221,7 +221,7 @@
       ],
       "complexity": 0
     },
-    "kampftalent": {
+    "Kampftalent": {
       "templates": ["baseItem", "baseTalent", "uniquelyIdentifiable"],
       "combat": {
         "category": null,
@@ -230,24 +230,24 @@
         "rangedAttack": -1
       }
     },
-    "vorteil": {
+    "Vorteil": {
       "templates": ["baseItem", "uniquelyIdentifiable"],
       "value": null
     },
-    "nachteil": {
+    "Nachteil": {
       "templates": ["baseItem", "uniquelyIdentifiable"],
       "negativeAttribute": false,
       "value": null
     },
-    "gabe": {
+    "Gabe": {
       "templates": ["baseItem", "uniquelyIdentifiable"],
       "type": null
     },
-    "sonderfertigkeit": {
+    "Sonderfertigkeit": {
       "templates": ["baseItem", "uniquelyIdentifiable"],
       "type": null
     },
-    "zauber": {
+    "Zauber": {
       "templates": [
         "baseItem",
         "talentTestable",
@@ -266,24 +266,24 @@
       "representation": "",
       "spread": null
     },
-    "zaubervariante": {
+    "Zaubervariante": {
       "templates": ["baseItem", "uniquelyIdentifiable"],
       "modificator": 0,
       "minimalValue": 0,
       "astralCost": null
     },
-    "liturgie": {
+    "Liturgie": {
       "templates": ["baseItem", "castable", "uniquelyIdentifiable"],
       "type": null,
       "degree": null,
       "castType": null,
       "llPage": null
     },
-    "liturgievariante": {
+    "Liturgievariante": {
       "templates": ["baseItem", "uniquelyIdentifiable"],
       "degree": null
     },
-    "nahkampfwaffe": {
+    "Nahkampfwaffe": {
       "templates": ["baseItem", "baseWeapon", "buyable", "physical"],
       "length": 0,
       "strengthMod": {
@@ -301,7 +301,7 @@
       "improvised": false,
       "priviledged": false
     },
-    "fernkampfwaffe": {
+    "Fernkampfwaffe": {
       "templates": ["baseItem", "baseWeapon", "buyable", "physical"],
       "ranges": {
         "veryClose": 0,
@@ -323,12 +323,12 @@
       "improvised": false,
       "entangles": false
     },
-    "rüstung": {
+    "Rüstung": {
       "templates": ["baseItem", "buyable", "physical", "equippable"],
       "armorClass": 0,
       "encumbarance": 0
     },
-    "schild": {
+    "Schild": {
       "templates": ["baseItem", "buyable", "physical"],
       "type": null,
       "sizeClass": null,
@@ -339,7 +339,7 @@
       "initiativeMod": 0,
       "breakingFactor": 0
     },
-    "generic": {
+    "Gegenstand": {
       "templates": ["baseItem"],
       "isConsumable": false,
       "quantity": null
